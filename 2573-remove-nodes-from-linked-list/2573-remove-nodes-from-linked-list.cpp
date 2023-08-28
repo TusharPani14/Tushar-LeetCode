@@ -14,27 +14,26 @@ public:
         vector<int> arr;
         ListNode *p=head,*q=nullptr;
         while(p){
-            arr.push_back(p->val); // store linklist in array
+            arr.push_back(p->val); 
             p=p->next;
         }
         stack<pair<int,int>> st; 
         for(int i=arr.size()-1;i>=0;i--){
             if(st.empty()){
-                st.push({arr[i],1}); // for last element there is no greater element to right of it
+                st.push({arr[i],1}); 
             }else{
-                if(st.top().first>arr[i]){ // if there is greater element to right then in pair put -1 with max till element
+                if(st.top().first>arr[i]){ 
                     st.push({st.top().first,-1});
                 }else{
-                    st.push({arr[i],1}); // if current is max till now then put it with 1
+                    st.push({arr[i],1}); 
                 }
             }
         }
         p=head;
-        // which ever has 1 means it has no greater element to right
         while(st.size()){
             if(st.top().second==1){
                 p->val = st.top().first;
-                q=p; // q stores previous pointer
+                q=p; 
                 p=p->next;
             }
             st.pop();
