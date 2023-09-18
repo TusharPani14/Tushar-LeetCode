@@ -27,10 +27,8 @@ public:
         }
     }
     TreeNode* searchBST(TreeNode* root, int val) {
-        TreeNode* res;
-        if(check(root,val,res)){
-            return res;
-        }
-        return nullptr;
+        TreeNode* res=nullptr;
+        check(root,val,res);
+        return res;
     }
 };
