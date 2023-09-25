@@ -4,9 +4,7 @@ This repository contains my solutions to various LeetCode problems. I use this r
 
 ## Solutions
 
-Each problem in this repository is organized into its own folder with a unique number or title. Inside each folder, you will find:
+Each problem in this repository is organized into its own folder named by the problem name or a unique identifier, along with its average time and space complexity. Inside each folder, you will find:
 
 1. **Solution Code**: The source code for solving the problem, typically written in a programming language like Python, C++, Java, etc.
-2. **Explanation**: A brief explanation of the approach and algorithm used to solve the problem.
-3. **Complexity Analysis**: Analysis of the time and space complexity of the solution.
-
+2. **Question**: The original problem statement.
