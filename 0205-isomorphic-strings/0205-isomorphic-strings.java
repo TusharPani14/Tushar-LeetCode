@@ -9,9 +9,11 @@ class Solution {
         HashMap<Character, Character> mapST = new HashMap<>();
         HashMap<Character, Character> mapTS = new HashMap<>();
 
+        char cs,ct;
+
         for (int i = 0; i < s.length(); i++) {
-            char cs = s.charAt(i);
-            char ct = t.charAt(i);
+            cs = s.charAt(i);
+            ct = t.charAt(i);
 
             if (mapST.containsKey(cs)) {
                 if (mapST.get(cs) != ct) {
