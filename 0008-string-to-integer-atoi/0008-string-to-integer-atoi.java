@@ -5,22 +5,29 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
             if (ch == ' ') {
+                if (digit)
+                    break;
                 continue;
             } else if (ch == '-') {
-                if (digit == true) {
+                if (digit)
                     break;
-                }
                 nve = true;
-            } else if (ch == '0') {
                 digit = true;
-                continue;
+            } else if (ch == '+') {
+                if (digit)
+                    break;
+                digit = true;
             } else if (Character.isDigit(ch)) {
                 digit = true;
-                res = res * 10 + (ch - 48);
+                res = res * 10 + (ch - '0');
+                if (res > Integer.MAX_VALUE) {
+                    break;
+                }
             } else {
                 break;
             }
         }
+
         if (nve) {
             res = -res;
         }
