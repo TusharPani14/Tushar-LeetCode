@@ -3,36 +3,43 @@ class Solution {
         if (heights.length == 1) {
             return heights[0];
         }
+
+        int n = heights.length;
         Stack<Pair<Integer, Integer>> st = new Stack<>();
         HashMap<Integer, Integer> f = new HashMap<>();
         HashMap<Integer, Integer> b = new HashMap<>();
-        for (int i = 0; i < heights.length; i++) {
-            while (!st.empty() && st.peek().getKey() >= heights[i]) {
+
+        for (int i = 0; i < n; i++) {
+            while (!st.isEmpty() && st.peek().getKey() >= heights[i]) {
                 st.pop();
             }
             if (st.isEmpty())
-                f.put(heights[i], -1);
+                f.put(i, -1);
             else
-                f.put(heights[i], st.peek().getValue());
-            st.push(new Pair(heights[i], i));
+                f.put(i, st.peek().getValue());
+            st.push(new Pair<>(heights[i], i));
         }
-        while (!st.empty()) {
-            st.pop();
-        }
-        for (int i = heights.length - 1; i >= 0; i--) {
-            while (!st.empty() && st.peek().getKey() >= heights[i]) {
+        
+        st.clear();
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.isEmpty() && st.peek().getKey() >= heights[i]) {
                 st.pop();
             }
             if (st.isEmpty())
-                b.put(heights[i], heights.length);
+                b.put(i, n);
             else
-                b.put(heights[i], st.peek().getValue());
-            st.push(new Pair(heights[i], i));
+                b.put(i, st.peek().getValue());
+            st.push(new Pair<>(heights[i], i));
         }
-        int max = 0;
-        for (int i = 0; i < heights.length; i++) {
-            max = Math.max(max, heights[i] * (b.get(heights[i]) - f.get(heights[i]) - 1));
+
+        int maxArea = 0;
+        for (int i = 0; i < n; i++) {
+            int width = b.get(i) - f.get(i) - 1;
+            int area = heights[i] * width;
+            maxArea = Math.max(maxArea, area);
         }
-        return max;
+
+        return maxArea;
     }
 }
