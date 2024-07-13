@@ -21,30 +21,24 @@ class Solution {
             return res;
         }
         q.add(root);
-        int left=0;
-        while(!q.isEmpty()){
-            int n=q.size();
-            List<Integer>l=new ArrayList<>();
-            for(int i=0;i<n;i++){
-                if(left==0){
-                    if(q.peek().right!=null){
-                        q.add(q.peek().right);
-                    }
-                    if(q.peek().left!=null){
-                        q.add(q.peek().left);
-                    }
-                }else{
-                    if(q.peek().left!=null){
-                        q.add(q.peek().left);
-                    }
-                    if(q.peek().right!=null){
-                        q.add(q.peek().right);
-                    }
+        int left = 0;
+        while (!q.isEmpty()) {
+            int n = q.size();
+            List<Integer> l = new ArrayList<>();
+            for (int i = 0; i < n; i++) {
+                if (q.peek().right != null) {
+                    q.add(q.peek().right);
+                }
+                if (q.peek().left != null) {
+                    q.add(q.peek().left);
                 }
                 l.add(q.poll().val);
             }
-            left=left^1;
+            if (left == 0) {
+                Collections.reverse(l);
+            }
             res.add(l);
+            left = left ^ 1;
         }
         return res;
     }
