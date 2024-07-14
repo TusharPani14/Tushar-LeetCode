@@ -15,19 +15,24 @@
  */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
-        if (root == null) {
+        if(root==null){
             return true;
         }
-        return traverse(root.left, root.right);
+        return traverse(root.left,root.right);
     }
-
-    public boolean traverse(TreeNode r1, TreeNode r2) {
-        if (r1 == null && r2 == null) {
+    public boolean traverse(TreeNode r1,TreeNode r2){
+        if(r1==null && r2==null){
             return true;
         }
-        if (r1 == null || r2 == null) {
+        if(r1==null && r2!=null){
             return false;
         }
-        return r1.val == r2.val && traverse(r1.left, r2.right) && traverse(r1.right, r2.left);
+        if(r1!=null && r2==null){
+            return false;
+        }
+        if(r1!=null && r2!=null && r1.val!=r2.val){
+            return false;
+        }
+        return traverse(r1.left,r2.right) && traverse(r1.right,r2.left);
     }
 }
