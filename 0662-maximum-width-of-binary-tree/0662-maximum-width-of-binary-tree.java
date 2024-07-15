@@ -24,16 +24,18 @@ class Solution {
         while (!q.isEmpty()) {
             long n = q.size();
             long s = q.peek().getValue();
-            long e = 0;
+            long e = s;  
             for (int i = 0; i < n; i++) {
-                e = q.peek().getValue();
-                if (q.peek().getKey().left != null) {
-                    q.add(new Pair<>(q.peek().getKey().left, 2 * e + 1));
+                Pair<TreeNode, Long> current = q.poll();
+                TreeNode node = current.getKey();
+                long index = current.getValue();
+                e = index;  
+                if (node.left != null) {
+                    q.add(new Pair<>(node.left, 2 * index + 1));
                 }
-                if (q.peek().getKey().right != null) {
-                    q.add(new Pair<>(q.peek().getKey().right, 2 * e + 2));
+                if (node.right != null) {
+                    q.add(new Pair<>(node.right, 2 * index + 2));
                 }
-                q.poll();
             }
             res = Math.max(res, e - s + 1);
         }
