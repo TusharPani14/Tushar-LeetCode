@@ -1,9 +1,9 @@
 class Solution {
     public int climbStairs(int n) {
-        int[] dp = new int[n + 1];
-        Arrays.fill(dp, -1);
+        // int[] dp = new int[n + 1];
+        // Arrays.fill(dp, -1);
         
-        return solve(n, dp);
+        return solve(n);
     }
 
     // public int solve(int n, int[] dp) {
@@ -25,7 +25,7 @@ class Solution {
     //     return dp[n];
     // }
 
-    public int solve(int n, int[]dp){
+    public int solve(int n){
         int prev=1;
         int prev2=1;
         for(int i=2;i<=n;i++){
