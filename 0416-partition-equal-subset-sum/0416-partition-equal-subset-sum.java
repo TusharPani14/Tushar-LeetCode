@@ -27,23 +27,24 @@ class Solution {
     }
 
     public boolean tabulation(int[] nums, int target) {
-        int n = nums.length;
-        boolean[][] dp = new boolean[n + 1][target + 1];
-
-        for (int i = 0; i <= n; i++) {
+        boolean dp[][] = new boolean[nums.length][target + 1];
+        for (int i = 0; i < nums.length; i++) {
             dp[i][0] = true;
         }
-
-        for (int i = 1; i <= n; i++) {
+        if (nums[0] <= target) {
+            dp[0][nums[0]] = true;
+        }
+        for (int i = 1; i < nums.length; i++) {
             for (int j = 1; j <= target; j++) {
-                if (j >= nums[i - 1]) {
-                    dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i - 1]];
-                } else {
-                    dp[i][j] = dp[i - 1][j];
+                boolean nonTake = dp[i - 1][j];
+                boolean take = false;
+                if (j >= nums[i]) {
+                    take = dp[i - 1][j - nums[i]];
+                    dp[i][j] = take || nonTake;
                 }
             }
         }
 
-        return dp[n][target];
+        return dp[nums.length - 1][target];
     }
 }
