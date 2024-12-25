@@ -1,19 +1,18 @@
 class Solution {
-    public int reverse(int x) {
-        int rev=0,d=0;
-        int n=Math.abs(x);
-        while(n>0){
-            d=n%10;
-            if (rev > (Integer.MAX_VALUE - d) / 10) {
-                return 0;  
-            }
+    public int helper(int x){
+        int rev=0;
+        while(x>0){
+            int d=x%10;
             rev=rev*10+d;
-            n=n/10;
+            x=x/10;
         }
-        if(x>=0){
-            return rev;
+        return rev;
+    }
+    public int reverse(int x) {
+        if(x<0){
+            return -1*helper(x*-1);
         }else{
-            return -rev;
+            return helper(x);
         }
     }
 }
