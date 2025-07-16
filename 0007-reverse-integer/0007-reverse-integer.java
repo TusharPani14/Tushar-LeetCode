@@ -1,21 +1,14 @@
 class Solution {
-    public int helper(int x){
-        int rev=0;
-        while(x>0){
-            int d=x%10;
-            if(rev>(Integer.MAX_VALUE-d)/10){
-                return 0;
-            }
-            rev=rev*10+d;
-            x=x/10;
-        }
-        return rev;
-    }
     public int reverse(int x) {
-        if(x<0){
-            return -1*helper(x*-1);
-        }else{
-            return helper(x);
+        int res=0,d=0;
+        int m= (x>=0)? x:x*-1; 
+        while(m>0){
+            d=m%10;
+            if(res>(Integer.MAX_VALUE-d)/10)
+                return 0;
+            res=res*10+d;
+            m=m/10;
         }
+        return (x>0)?res: res*-1;
     }
 }
