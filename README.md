@@ -8,3 +8,11 @@ Each problem in this repository is organized into its own folder named by the pr
 
 1. **Solution Code**: The source code for solving the problem, typically written in a programming language like Java, C++, Python, etc.
 2. **Question**: The original problem statement.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0007-reverse-integer) |
+<!---LeetCode Topics End-->
