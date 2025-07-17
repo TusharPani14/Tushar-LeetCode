@@ -1,22 +1,21 @@
 class Solution {
-    public boolean helper(String s, int i) {
-        if (i >= s.length() / 2) {
+    public boolean checkPalin(String cs,int i){
+        if(i>=cs.length()){
             return true;
         }
-        if (s.charAt(i) != s.charAt(s.length() - i - 1)) {
+        if(cs.charAt(i)!=cs.charAt(cs.length()-i-1)){
             return false;
         }
-        return helper(s, i + 1);
+        return checkPalin(cs,i+1);
     }
-
     public boolean isPalindrome(String s) {
-        String news="";
+        String cs="";
         for(int i=0;i<s.length();i++){
-            char c = s.charAt(i);
-            if(Character.isLetterOrDigit(c)){
-                news+=Character.toLowerCase(c);
+            char ch=s.charAt(i);
+            if(Character.isLetterOrDigit(ch)){
+                cs=cs+Character.toLowerCase(ch);
             }
         }
-        return helper(news, 0);
+        return checkPalin(cs,0);
     }
 }
