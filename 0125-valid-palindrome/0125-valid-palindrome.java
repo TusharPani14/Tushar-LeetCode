@@ -1,6 +1,6 @@
 class Solution {
     public boolean checkPalin(String cs,int i){
-        if(i>=cs.length()){
+        if(i>=cs.length()/2){
             return true;
         }
         if(cs.charAt(i)!=cs.charAt(cs.length()-i-1)){
