@@ -19,9 +19,11 @@ Each problem in this repository is organized into its own folder named by the pr
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
