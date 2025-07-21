@@ -19,6 +19,7 @@ Each problem in this repository is organized into its own folder named by the pr
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
 ## String
@@ -29,5 +30,6 @@ Each problem in this repository is organized into its own folder named by the pr
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 <!---LeetCode Topics End-->
