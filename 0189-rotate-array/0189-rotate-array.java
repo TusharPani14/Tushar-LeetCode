@@ -1,18 +1,18 @@
 class Solution {
+    //brute using O(N^2)
+    //better sol using extra space but T.C = O(N)
     public void rotate(int[] nums, int k) {
-        int n=nums.length;
-        k=k%n;
-        reverse(nums,0,n-1);
-        reverse(nums,0,k-1);
-        reverse(nums,k,n-1);
-    }
-    public void reverse(int[]nums,int startposition,int endposition){
-        while(startposition<endposition){
-            int temp=nums[startposition];
-            nums[startposition]=nums[endposition];
-            nums[endposition]=temp;
-            startposition++;
-            endposition--;
+        k=k%nums.length;
+        int[] temp = new int[k];
+        for(int i=nums.length-1;i>=nums.length-k;i--){
+            temp[i-(nums.length-1)+k-1]=nums[i];
+        }
+        //move rest elems to +k pos
+        for(int i=nums.length-k-1;i>=0;i--){
+            nums[i+k]=nums[i];
+        }
+        for(int i=0;i<k;i++){
+            nums[i]=temp[i];
         }
     }
 }
