@@ -11,7 +11,6 @@ class Solution {
                 if(nums[i+1]>=nums[i]){
                     inc++;
                     max=Math.max(max,inc);
-                    // System.out.println(i+" "+inc+" "+max);
                 }else{
                     inc=0;
                 }
@@ -20,7 +19,6 @@ class Solution {
                 if(nums[0]>=nums[nums.length-1]){
                     inc++;
                     max=Math.max(max,inc);
-                    // System.out.println(inc+" "+max);
                 }
                 loop++;
                 i=-1;
@@ -29,7 +27,6 @@ class Solution {
                 break;
             }
         }
-        System.out.println(max);
         if(max%(nums.length-1)==0){
             return true;
         }
