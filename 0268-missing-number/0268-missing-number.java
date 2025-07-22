@@ -1,12 +1,16 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        int miss=0;
+        //Brute
+        //Check nums.length. Check for each elem if present in nums
+        //Optimal
+        //XOR
+        int xor1=nums[0],xor2=0;
+        for(int i=1;i<nums.length;i++){
+            xor1=xor1^nums[i];
+        }
         for(int i=1;i<=nums.length;i++){
-            miss^=i;
+            xor2=xor2^i;
         }
-        for(int i=0;i<nums.length;i++){
-            miss^=nums[i];
-        }
-        return miss;
+        return xor1^xor2;
     }
 }
