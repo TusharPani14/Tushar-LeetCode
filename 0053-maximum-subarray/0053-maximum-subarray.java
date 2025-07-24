@@ -1,19 +1,16 @@
 class Solution {
     public int maxSubArray(int[] nums) {
-        int m=Integer.MIN_VALUE;
-        int ma=Integer.MIN_VALUE;
+        //Kadane's Algorithm
+        //Prefix sum but when sum<0 make it sum=0 as sum<0 will not contribute to max sum.
         int sum=0;
+        int maxSum=Integer.MIN_VALUE;
         for(int i=0;i<nums.length;i++){
-            sum=sum+nums[i];
             if(sum<0){
                 sum=0;
             }
-            ma=Math.max(ma,nums[i]);
-            m=Math.max(m,sum);
+            sum+=nums[i];
+            maxSum=Math.max(maxSum,sum);
         }
-        if(m<=0){
-            return ma;
-        }
-        return m;
+        return maxSum;
     }
 }
