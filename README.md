@@ -22,6 +22,7 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
@@ -35,6 +36,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | ------- |
 | [0001-two-sum](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -55,5 +57,6 @@ Each problem in this repository is organized into its own folder named by the pr
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
