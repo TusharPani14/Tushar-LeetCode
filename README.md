@@ -37,6 +37,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0001-two-sum](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -45,6 +46,7 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
@@ -58,5 +60,14 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
