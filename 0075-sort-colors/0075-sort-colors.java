@@ -1,29 +1,35 @@
 class Solution {
+    public void swap(int[] nums,int a,int b){
+        int temp=nums[a];
+        nums[a]=nums[b];
+        nums[b]=temp;
+    }
     public void sortColors(int[] nums) {
-        int ze=0,on=0,tw=0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]==0){
-                ze++;
-            }else if(nums[i]==1){
-                on++;
-            }else if(nums[i]==2){
-                tw++;
+        //Three pointer
+        //Dutch National flag algorithm
+        int low=0,mid=0,high=nums.length-1;
+        while(mid<=high){
+            if(nums[mid]==0){
+                if(low!=mid){
+                    swap(nums,mid,low);
+                    low++;
+                }
+                else{
+                    mid++;
+                } 
             }
-        }
-        int i=0;
-        while(i<ze){
-            nums[i]=0;
-            i++;
-        }
-        int j=i;
-        while(i<j+on){
-            nums[i]=1;
-            i++;
-        }
-        int k=i;
-        while(i<k+tw){
-            nums[i]=2;
-            i++;
+            else if(nums[mid]==2){
+                if(mid!=high){
+                    swap(nums,mid,high);
+                    high--;
+                }
+                else{
+                    mid++;
+                }  
+            }
+            else{
+                mid++;
+            }
         }
     }
 }
