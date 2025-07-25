@@ -1,34 +1,40 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-        int min = Integer.MAX_VALUE, minPos = 0;
-        int bp = -1;
-        for (int i = nums.length - 2; i >= 0; i--) {
-            if (min > nums[i + 1]) {
-                min = nums[i + 1];
-                minPos = i + 1;
-            }
-            if (nums[i + 1] > nums[i]) {
-                bp = i;
+        //Start moving from end of array.
+        //Find the peak. Means find an elem where arr[i-1]<arr[i]
+        //After finding the elem which is just smaller than peak find an elem which is just greater than the elem 
+        //Swap with that elem
+        //reverse the part of array from peak to last
+        int idx=-1;
+        for(int i=nums.length-1;i>0;i--){
+            if(nums[i-1]<nums[i]){
+                idx=i-1;
                 break;
             }
         }
-        if (bp == -1) {
-            reverse(nums, 0, nums.length - 1);
-        } else {
-            int temp = nums[bp];
-            nums[bp] = nums[minPos];
-            nums[minPos] = temp;
-            reverse(nums, bp + 1, nums.length - 1);
+        if(idx==-1){
+            reverse(nums,0,nums.length-1);
+        }else{
+            int swapidx=0;
+            for(int i=nums.length-1;i>idx;i--){
+                if(nums[i]>nums[idx]){
+                    swapidx=i;
+                    break;
+                }
+            }
+            int temp=nums[swapidx];
+            nums[swapidx]=nums[idx];
+            nums[idx]=temp;
+            reverse(nums,idx+1,nums.length-1);
         }
     }
-
-    public void reverse(int[] nums, int start, int end) {
-        while (start < end) {
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
+    public static void reverse(int[] nums,int i,int j){
+        while(i<j){
+            int temp=nums[i];
+            nums[i]=nums[j];
+            nums[j]=temp;
+            i++;
+            j--;
         }
     }
 }
