@@ -38,6 +38,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0026-remove-duplicates-from-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
@@ -76,4 +77,5 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
