@@ -1,44 +1,40 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
-        boolean col0 = false, row0 = false;
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                if (matrix[i][j] == 0) {
-                    if (i != 0 && j != 0) {
-                        matrix[i][0] = 0;
-                        matrix[0][j] = 0;
-                    }
-                    if (i == 0) {
-                        col0 = true;
-                    }
-                    if (j == 0) {
-                        row0 = true;
-                    }
+        //See first thing is we need row array and col array to keep track of 0's
+        //But question says we have to do it in place.
+        //So we will use first col and first row as arrays to keep track.
+        //But the problem is first elem of matrix will overlap
+        //To avoid that we can keep the first elem to one single var as col1
+        //Then we need to start the traversal and marking excluding the 1st row and col
+        //Then we can perform the col array part then we can proceed with row array part.
+        int col1=1;
+        int m=matrix.length;
+        int n=matrix[0].length;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(matrix[i][j]==0 && j!=0){
+                    matrix[i][0]=0;
+                    matrix[0][j]=0;
+                }else if(matrix[i][j]==0 && j==0){
+                    col1=0;
                 }
             }
         }
-        for (int i = 1; i < matrix.length; i++) {
-            if (matrix[i][0] == 0) {
-                for (int j = 0; j < matrix[0].length; j++) {
-                    matrix[i][j] = 0;
+        for(int i=1;i<m;i++){
+            for(int j=1;j<n;j++){
+                if(matrix[i][0]==0 || matrix[0][j]==0){
+                    matrix[i][j]=0;
                 }
             }
         }
-        for (int i = 1; i < matrix[0].length; i++) {
-            if (matrix[0][i] == 0) {
-                for (int j = 0; j < matrix.length; j++) {
-                    matrix[j][i] = 0;
-                }
+        if(matrix[0][0]==0){
+            for(int j=0;j<n;j++){
+                matrix[0][j]=0;
             }
         }
-        if (row0) {
-            for (int i = 0; i < matrix.length; i++) {
-                matrix[i][0] = 0;
-            }
-        }
-        if (col0) {
-            for (int i = 0; i < matrix[0].length; i++) {
-                matrix[0][i] = 0;
+        if(col1==0){
+            for(int i=0;i<m;i++){
+                matrix[i][0]=0;
             }
         }
     }
