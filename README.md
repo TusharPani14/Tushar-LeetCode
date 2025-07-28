@@ -45,6 +45,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0054-spiral-matrix](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
+| [0118-pascals-triangle](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
@@ -90,6 +91,7 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0053-maximum-subarray) |
+| [0118-pascals-triangle](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Simulation
 |  |
