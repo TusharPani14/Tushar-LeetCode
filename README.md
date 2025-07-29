@@ -50,6 +50,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0128-longest-consecutive-sequence](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0560-subarray-sum-equals-k) |
@@ -62,6 +63,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0073-set-matrix-zeroes](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Binary Search
@@ -77,6 +79,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | ------- |
 | [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
 ## Divide and Conquer
 |  |
@@ -87,6 +90,7 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0229-majority-element-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
