@@ -42,7 +42,6 @@ class Solution {
             int j=i+1;
             int k=nums.length-1;
             while(j<k){
-                List<Integer> row=new ArrayList<>();
                 if(nums[i]+nums[j]+nums[k]==0){
                     ans.add(List.of(nums[i],nums[j],nums[k]));
                     j++;
