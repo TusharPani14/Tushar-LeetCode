@@ -13,9 +13,9 @@ class Solution {
                 int k = j + 1;
                 int l = nums.length - 1;
                 while (k < l) {
-                    long sum=nums[i]+nums[j];
-                    sum+=nums[k];
-                    sum+=nums[l];
+                    long sum = nums[i] + nums[j];
+                    sum += nums[k];
+                    sum += nums[l];
                     if (sum == target) {
                         ans.add(List.of(nums[i], nums[j], nums[k], nums[l]));
                         k++;
