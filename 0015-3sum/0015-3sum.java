@@ -1,34 +1,31 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
-            if (i != 0 && nums[i] == nums[i - 1]) continue;
-            int j = i + 1;
-            int k = nums.length - 1;
-            while (j < k) {
-                int s = nums[i] + nums[j] + nums[k];
-                if (s == 0) {
-                    List<Integer> l = new ArrayList<>(3);
-                    l.add(nums[i]);
-                    l.add(nums[j]);
-                    l.add(nums[k]);
-                    res.add(l);
-                    j++;
-                    k--;
-                    while (j < k && nums[j] == nums[j - 1]) {
-                        j++;
-                    }
-                    while (j < k && nums[k] == nums[k + 1]) {
-                        k--;
-                    }
-                } else if (s < 0) {
-                    j++;
-                } else {
-                    k--;
+        //Better sol logic
+        //nums[k]=-(nums[i]+nums[j])
+        //So we have to put elems in hashset and find nums[k]
+        //So by this method we can optimise it to N^2
+        //But one catch is there that we cannot put all elems at once in hashset and look for nums[k] because it may find the same number where i or j are standing. For detailed explanation look notes
+        //So we have to take hashset elems between i and j
+        List<List<Integer>> ans=new ArrayList<>();
+        HashSet<List<Integer>> uniqueSet=new HashSet<>();
+        for(int i=0;i<nums.length;i++){
+            HashSet<Integer> set=new HashSet<>();
+            for(int j=i+1;j<nums.length;j++){
+                List<Integer> row=new ArrayList<>();
+                int third=-(nums[i]+nums[j]);
+                if(set.contains(third)){
+                    row.add(nums[i]);
+                    row.add(nums[j]);
+                    row.add(third);
+                    Collections.sort(row);
+                    uniqueSet.add(row);
                 }
+                set.add(nums[j]);
             }
         }
-        return res;
+        for(var s: uniqueSet){
+            ans.add(s);
+        }
+        return ans;
     }
 }
