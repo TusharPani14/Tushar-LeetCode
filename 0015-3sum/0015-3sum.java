@@ -44,10 +44,7 @@ class Solution {
             while(j<k){
                 List<Integer> row=new ArrayList<>();
                 if(nums[i]+nums[j]+nums[k]==0){
-                    row.add(nums[i]);
-                    row.add(nums[j]);
-                    row.add(nums[k]);
-                    ans.add(row);
+                    ans.add(List.of(nums[i],nums[j],nums[k]));
                     j++;
                     k--;
                     while(j<k && nums[j]==nums[j-1]){
