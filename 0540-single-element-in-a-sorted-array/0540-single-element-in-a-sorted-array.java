@@ -1,5 +1,6 @@
 class Solution {
     public int singleNonDuplicate(int[] nums) {
+        //follow the concept of odd and even index for elimination
         int n = nums.length;
         if (nums.length == 1) {
             return nums[0];
