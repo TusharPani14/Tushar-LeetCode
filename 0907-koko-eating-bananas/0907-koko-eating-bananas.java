@@ -10,7 +10,7 @@ class Solution {
     public static boolean possible(int[] piles, int mid, int h) {
         int hrs = 0;
         for (int i = 0; i < piles.length; i++) {
-            int hr = piles[i] % mid == 0 ? (int) piles[i] / mid : (int) Math.ceil((double) piles[i] / mid);
+            int hr = (int) Math.ceil((double) piles[i] / mid);
             if (hrs + hr > h) {
                 return false;
             }
