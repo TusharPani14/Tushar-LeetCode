@@ -72,6 +72,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0560-subarray-sum-equals-k](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0907-koko-eating-bananas) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -99,6 +100,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0540-single-element-in-a-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0907-koko-eating-bananas) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Bit Manipulation
 |  |
