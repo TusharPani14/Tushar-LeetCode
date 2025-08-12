@@ -75,6 +75,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
@@ -104,6 +105,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1646-kth-missing-positive-number) |
 ## Bit Manipulation
 |  |
 | ------- |
