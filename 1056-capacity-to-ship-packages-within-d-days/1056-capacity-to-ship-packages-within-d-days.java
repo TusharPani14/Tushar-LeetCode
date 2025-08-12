@@ -8,20 +8,16 @@ class Solution {
     }
     public static boolean possible(int[] weights, int cap, int days){
         int capSum=0,dayC=0;
-        System.out.print(cap+" ");
         for(int i=0;i<weights.length;i++){
             capSum+=weights[i];
             if(capSum>cap){
-                System.out.print(capSum+",");
                 capSum=weights[i];
                 dayC++;
                 if(dayC>days){
-                    System.out.println();
                     return false;
                 }
             }
         }
-        System.out.println(dayC);
         if(dayC>=days){
             return false;
         }
