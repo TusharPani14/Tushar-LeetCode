@@ -30,7 +30,10 @@ class Solution {
         return true;
     }
     public int shipWithinDays(int[] weights, int days) {
-        int low=maxElem(weights),high=Arrays.stream(weights).sum();
+        int low=maxElem(weights),high=0;
+        for (int weight : weights) {
+            high += weight;
+        }
         while(low<=high){
             int mid=low+(high-low)/2;
             if(possible(weights,mid,days)){
