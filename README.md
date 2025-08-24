@@ -29,6 +29,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0075-sort-colors](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -36,6 +37,7 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
 | [1078-remove-outermost-parentheses](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1078-remove-outermost-parentheses) |
 ## Array
