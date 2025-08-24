@@ -19,6 +19,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0048-rotate-image](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
+| [2032-largest-odd-number-in-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -40,6 +41,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0151-reverse-words-in-a-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
 | [1078-remove-outermost-parentheses](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1078-remove-outermost-parentheses) |
+| [2032-largest-odd-number-in-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Array
 |  |
 | ------- |
@@ -198,6 +200,7 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0410-split-array-largest-sum) |
+| [2032-largest-odd-number-in-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Stack
 |  |
 | ------- |
