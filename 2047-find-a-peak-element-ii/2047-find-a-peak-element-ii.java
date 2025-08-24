@@ -20,8 +20,8 @@ class Solution {
         while (low <= high) {
             int mid = low + (high - low) / 2;
             int row = maxElem(mat, mid);
-            int left = mid > 0 ? mat[row][mid - 1] : Integer.MIN_VALUE;
-            int right = mid < mat[0].length - 1 ? mat[row][mid + 1] : Integer.MIN_VALUE;
+            int left = mid > 0 ? mat[row][mid - 1] : -1;
+            int right = mid < mat[0].length - 1 ? mat[row][mid + 1] : -1;
             if (mat[row][mid] > left && mat[row][mid] > right) {
                 System.out.println(mat[row][mid] + " " + left + " " + right);
                 return new int[] { row, mid };
