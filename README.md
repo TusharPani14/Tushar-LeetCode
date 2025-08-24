@@ -37,6 +37,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | ------- |
 | [0125-valid-palindrome](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
+| [1078-remove-outermost-parentheses](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1078-remove-outermost-parentheses) |
 ## Array
 |  |
 | ------- |
@@ -195,4 +196,8 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0410-split-array-largest-sum) |
+## Stack
+|  |
+| ------- |
+| [1078-remove-outermost-parentheses](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1078-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
