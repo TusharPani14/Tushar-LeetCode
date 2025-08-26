@@ -43,6 +43,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0205-isomorphic-strings](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0344-reverse-string) |
+| [0451-sort-characters-by-frequency](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/2032-largest-odd-number-in-string) |
@@ -104,6 +105,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0229-majority-element-ii](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
+| [0451-sort-characters-by-frequency](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Binary Search
 |  |
@@ -144,6 +146,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | [0229-majority-element-ii](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0268-missing-number) |
+| [0451-sort-characters-by-frequency](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0451-sort-characters-by-frequency) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -157,6 +160,7 @@ Each problem in this repository is organized into its own folder named by the pr
 | ------- |
 | [0169-majority-element](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0229-majority-element-ii) |
+| [0451-sort-characters-by-frequency](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0451-sort-characters-by-frequency) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -221,4 +225,12 @@ Each problem in this repository is organized into its own folder named by the pr
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0812-rotate-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0451-sort-characters-by-frequency) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/TusharPani14/Tushar-LeetCode/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
